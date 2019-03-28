@@ -1,0 +1,49 @@
+.outer-div{
+    box-shadow: 0 5px 8px 0 rgba(129, 127, 127, 0.2);
+    /* 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.myinput{
+    width:80%;
+    font-size: 28px;
+    font-weight: lighter;
+    /* font-style: italic; */
+    border:0px;
+    
+}
+.user-input{
+    font-size: 45px;
+    font-weight: lighter;
+}
+.user-input::placeholder{
+    text-align: center;
+    font-style: italic;
+}
+#main-heading{
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgb(204, 143, 10);
+}
+.user-form{
+    width:100%;
+
+}
+.mybtn{
+    background: none;
+    border:none;
+}
+.strike{
+    text-decoration: line-through;
+    
+}
+.count{
+    color: rgb(123, 129, 129);
+}
+.filterdiv{
+    border : 0.5px solid rgb(231, 229, 229);
+}
+.filterbtn{
+    /* border :0px; */
+    font-size: 10px;
+    margin:1px;
+}
